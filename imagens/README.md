@@ -1,0 +1,1 @@
+Imagens usadas no repositório.
