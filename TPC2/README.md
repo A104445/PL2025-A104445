@@ -25,3 +25,7 @@ Em relação à contagem de músicas e os títulos produzidos em cada período, 
 Para organizar os dados por ordem alfabética, foi utilizado o método "sort()" no caso do dicionário de títulos e o método "sorted()" no caso dos períodos.
 
 Ficheiro de compositores: [Compositores](compositores.txt)
+
+Ficheiro de total de obras por período: [ObrasPorPeriodo](distribuicao_periodos.txt)
+
+Ficheiro de títulos produzidos em cada período: [TitulosPorPeriodo](obras_por_periodo.txt)
