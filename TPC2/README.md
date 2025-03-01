@@ -23,3 +23,5 @@ Para o armazenamento de dados, foi criado um conjunto de compositores para que n
 Em relação à contagem de músicas e os títulos produzidos em cada período, foram criados dicionários, uma vez que permitia associar cada período à lista de músicas produzidos e os seus valores eram únicos.
 
 Para organizar os dados por ordem alfabética, foi utilizado o método "sort()" no caso do dicionário de títulos e o método "sorted()" no caso dos períodos.
+
+Ficheiro de compositores: ![]{compositores.txt}
