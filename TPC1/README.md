@@ -1,7 +1,7 @@
 # Somador on/off
 ## A104445 - Alexandre Marques Miranda
 ### ![](../imagens/fotoRelatorio.webp)
-### 20/2/2025
+### 13/2/2025
 
 Para a resolução deste TPC, recorreu-se à entrada de texto pelo terminal e a impresssão das respetivas respostas também no terminal.
 
