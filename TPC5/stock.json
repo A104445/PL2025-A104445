@@ -1,0 +1,26 @@
+[
+    {
+        "cod": "A23",
+        "nome": "\u00e1gua 0.5L",
+        "quant": 7,
+        "preco": 0.7
+    },
+    {
+        "cod": "B45",
+        "nome": "coca-cola 0.33L",
+        "quant": 5,
+        "preco": 1.2
+    },
+    {
+        "cod": "C12",
+        "nome": "batatas fritas",
+        "quant": 10,
+        "preco": 1.0
+    },
+    {
+        "cod": "D34",
+        "nome": "chocolate",
+        "quant": 3,
+        "preco": 1.5
+    }
+]
