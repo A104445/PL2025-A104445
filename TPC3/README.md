@@ -14,3 +14,5 @@ O bloco seguinte seleciona o texto que aparece numerado e, para cada uma dessas 
 Em relação às imagens e aos links, foram identificados os padrões de cada um dos casos e substituidos para a respetiva notação em HTML.
 
 Para todos esses campos, a informação foi armazenada em grupos para depois poder ser colocada nos campos indicados.
+
+![Exemplo de input e output](../imagens/TPC3ex.png)

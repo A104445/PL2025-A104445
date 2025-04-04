@@ -34,4 +34,8 @@ Como se vê na imagem seguinte: ![imagem dum coelho](http://www.coellho.com)
 """
 
 html_result = markdown_to_html(test_markdown)
+print("INPUT")
+print(test_markdown)
+print("----------------------------------------------------------------------------")
+print("OUTPUT")
 print(html_result)

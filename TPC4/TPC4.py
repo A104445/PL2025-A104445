@@ -85,6 +85,11 @@ lexer = lex.lex()
 
 lexer.input(texto)
 
+print("INPUT")
+print(texto)
+print("-------------------------------------------------")
+print("OUTPUT")
+
 while True:
     tok = lexer.token()
     if not tok:

@@ -22,8 +22,26 @@ def calculaSaldo(saldo,moedas):
     return saldo
 
 def calculaTroco(troco):
-    resto = []
-    
+    resto = [0,0,0,0,0,0]
+    while troco >= 2:
+        resto[0] += 1
+        troco -= 2
+    while troco >= 1:
+        resto[1] += 1
+        troco -= 1
+    while troco >= 0.5:
+        resto[2] += 1
+        troco -= 0.5
+    while troco >= 0.2:
+        resto[3] += 1
+        troco -= 0.2
+    while troco >= 0.1:
+        resto[4] += 1
+        troco -= 0.1
+    while troco >= 0.05:
+        resto[5] += 1
+        troco -= 0.05
+    return resto
 
 def main():
     print("maq: Stock carregado, Estado atualizado.")
@@ -66,6 +84,19 @@ def main():
         if comando == "SAIR":
             salvaJson(nomeFicheiro,produtos)
             troco = calculaTroco(saldo)
+            print(f"Troco: {saldo}€")
+            if troco[0] > 0:
+                print(f"- {troco[0]} moedas de 2€") 
+            if troco[1] > 0:
+                print(f"- {troco[1]} moedas de 1€")
+            if troco[2] > 0:
+                print(f"- {troco[2]} moedas de 0.5€")
+            if troco[3] > 0:
+                print(f"- {troco[3]} moedas de 0.2€")
+            if troco[4] > 0:
+                print(f"- {troco[4]} moedas de 0.1€") 
+            if troco[5] > 0:
+                print(f"- {troco[5]} moedas de 0.05€")
             print("maq: Até à próxima")
             break
             
